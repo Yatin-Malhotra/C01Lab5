@@ -32,5 +32,6 @@
                 uses: supercharge/mongodb-github-action@1.10.0
               # - run: mongod --dbpath=./data/db
               - run: npm i
-              - run: npm run build
+              - run: npm run dev &
+                background: true
               - run: npm test
