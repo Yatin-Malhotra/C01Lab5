@@ -33,5 +33,4 @@
               # - run: mongod --dbpath=./data/db
               - run: npm i
               - run: npm run dev &
-                background: true
               - run: npm test
